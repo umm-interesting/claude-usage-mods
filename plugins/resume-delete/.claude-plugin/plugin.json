@@ -1,0 +1,6 @@
+{
+  "name": "resume-delete",
+  "version": "0.1.0",
+  "description": "/sessions 창에서 이 프로젝트의 지난 세션을 재개하거나 디스크에서 영구 삭제한다",
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,1 @@
+{ "name": "usage-status", "version": "0.2.0", "description": "컨텍스트 토큰·레이트리밋과 리셋 시각을 프롬프트 힌트 줄 끝에 표시한다", "types": "./types/index.d.ts" }

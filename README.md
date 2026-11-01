@@ -76,7 +76,7 @@
 - `clear-purge`는 클로드 코드가 남기는 입력 기록 파일(`~/.claude/history.jsonl`)을 읽어 `/clear`와 `/new`·`/reset`을 구분합니다. 이 파일 형식은 공식으로 보장된 것이 아니라서, 업데이트 뒤 구분하지 못하면 **지우지 않고 남기는 쪽으로** 동작합니다.
 - `resume-delete`는 대화 목록을 읽을 때 `python3`을 씁니다. 맥에서 `python3`이 없다고 나오면 Xcode 명령어 도구를 설치하세요(`xcode-select --install`).
 - mod는 내 컴퓨터에서 내 권한으로 실행되는 코드입니다. 설치 전에 `plugins/` 안의 코드를 열어 보거나, `claude plugin validate ./plugins/<이름>`으로 확인할 수 있습니다.
-- 5시간·주간 한도는 Pro·Max 구독에서만 표시됩니다.
+- 5시간·주간 한도는 Pro·Max·Ultra 구독에서만 표시됩니다. 2026년 10월 30일부터 Ultra(구 Max 20x)는 인증된 계정에 5시간 한도가 없어서, 이때는 5시간 칸 없이 컨텍스트와 주간만 나옵니다([Ultra 요금제 안내](https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan)).
 
 ## 확인한 환경
 
